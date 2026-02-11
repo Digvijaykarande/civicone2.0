@@ -30,7 +30,8 @@ app.use(express.json());
 // CORS setup
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://civicone.netlify.app"
+  "https://civicone.netlify.app",
+  "https://civicone20.netlify.app"
 ];
 
 app.use(cors({
